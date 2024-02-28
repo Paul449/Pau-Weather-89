@@ -1,0 +1,43 @@
+.header {
+
+    color: white;
+    background-color: blue;
+    padding-bottom:30px ;
+    text-align: center;
+}
+
+#header-title {
+
+   position: relative;
+   top: 20px;
+}
+
+.Search-History {
+
+    border: 1px solid black;
+    display: inline-block;
+    margin-top: 20px;
+    padding-right: 5%;
+    padding-bottom: 30%;
+}
+
+#Search-History-title {
+
+    position: relative;
+    left: 8px;
+}
+
+.current-city-info {
+
+   
+
+}
+
+footer {
+
+    background-color: blue;
+    color:white;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+}

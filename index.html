@@ -3,14 +3,37 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    
+    <link rel="stylesheet" href="Assets/style.css">
     <title>Weather App Paul</title>
 </head>
 <body>
 <main>
-<div class="header"><h1>Weather Dashboard</h1></div>
-<div class="inner-body"></div>
-
+<div class="header"><h1 id="header-title"><strong>Weather Dashboard</strong></h1></div>
+<div class="inner-body">
+<div class="search-for-a-city">
+<h1>Search for a City</h1>
+<form>
+    <label>Enter City:</label><br></br>
+    <input type="text" placeholder="any location"><br></br>
+    <button type="submit">Search</button>
+</form>
+</div>
+<div class="Search-History">
+    <h3 id="Search-History-title">Search History:</h3>
+    <div class="display-stored-cities"></div>
+</div>
+<div class="current-city-info">
+    <h1 id="City-Name">A</h1>
+    <p id="temp">Temp:</p>
+    <p id="Wind">Wind:</p>
+    <p id="Humidity">Humidity:</p>
+</div>
+<div class="5-Day-Forecast section"></div>
+</div>
+<footer>
+<h3>Important Message: Please, take your precautions and avoid going outside when there is any hazardous weather!!!</h3>
+</footer>
 </main>
+<script src="Assets/script.js"></script>
 </body>
 </html>
