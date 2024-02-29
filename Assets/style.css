@@ -6,6 +6,11 @@
     text-align: center;
 }
 
+body {
+
+    background-color: gainsboro;
+}
+
 #header-title {
 
    position: relative;
@@ -19,18 +24,44 @@
     margin-top: 20px;
     padding-right: 5%;
     padding-bottom: 30%;
+    position: relative;
+    left: 70px;
+    
 }
 
 #Search-History-title {
 
     position: relative;
-    left: 8px;
+    left: 25px;
+}
+
+.container {
+
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 70px;
+}
+
+.container2 {
+
+   display: flex;
+   flex-direction: row;
+}
+
+.Five-Day-Forecast-section {
+
+    position: relative;
+    left: 111px;
+    
 }
 
 .current-city-info {
 
-   
-
+    border: 1px solid black;
+    margin-left: 30px;
+    margin-top: 5px;
+    width: 70%;
 }
 
 footer {
