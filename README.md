@@ -16,7 +16,7 @@ This is not a mobile app or desktop app where we could be able to download it bu
 
 # Screenshot
 
-![Screenshot](/Assets/weather%20dashborard.png)
+![Screenshot](./Assets/weatherAPI.png)
 
 # Links
 
