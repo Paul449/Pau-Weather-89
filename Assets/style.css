@@ -1,121 +1,85 @@
-.header {
+header {
 
+    background-color: #1E90FF;
+    padding-bottom: 2.5%;
+    display: flex;
+    justify-content: center;
     color: white;
-    background-color: blue;
-    padding-bottom:30px ;
-    text-align: center;
 }
 
-body {
 
-    background-color: gainsboro;
-}
+header, h1{
 
-#header-title {
-
-   position: relative;
-   top: 20px;
-}
-
-.Search-History {
-
-    border: 1px solid black;
-    display: inline-block;
-    margin-top: 20px;
-    padding-right: 5%;
-    padding-bottom: 30%;
     position: relative;
-    left: 70px;
+    top: 3px;
+}
+
+.search-for-a-city {
+
+    margin-top: 2.5%;
+}
+
+#searchBtn{
+
+    padding-right: 25%;
+   
+}
+
+.present-conditions {
+
+    margin-left: 5%;
+    border: 2px solid black;
+    width: 70%;
+    margin-top: 2.5%;
+}
+
+#input-txt{
+
+    margin-bottom: 8px;
+}
+
+#C {
+
+    margin-bottom: 1px; 
+}
+
+.storedCities{
+
+    padding-right: 4%;
+    border: 2px solid black;
+}
+
+.city-list{
+
     
 }
 
-#Search-History-title {
 
-    position: relative;
-    left: 25px;
+.Five-day-forecast{
+
+    margin-left: 2.2%;
+    margin-top: 2.5%;
+    padding-bottom: 20%;
+    padding-right: 45%;
 }
 
+.future-conditions, h3{
 
+    position: relative;
+    left: 4%;
+    display: flex;
+    flex-direction: row;
+}
 
-.container {
+.container-1 {
 
     display: flex;
     flex-direction: row;
-    position: relative;
-    left: 70px;
 }
 
-.container2 {
+.container-2 {
 
-   display: flex;
-   flex-direction: row;
-}
-
-.Five-Day-Forecast-section {
-
-    position: relative;
-    left: 111px;
-    border: 1px solid black;
-    padding-right: 59%;
-    margin-top: 1%;
-    
-}
-
-#one{
-margin-right: 10%;
-
-}
-
-#two{
-    margin-right: 10%;
-
-}
-
-#three{
-    margin-right: 10%;
-
-}
-
-#four{
-    margin-right: 10%;
-
-}
-
-#five{
-    margin-right: 10%;
-
-}
-
-.Cards{
-margin: 1px;
-border: 1px solid blue;
-color: white;
-background-color: blue;
-padding: 10%;
-position: relative;
-left: 55%;
-
-}
-
-.container-3 {
-display: flex;
-flex-direction: row;
-}
-
-.current-city-info {
-
-    border: 1px solid black;
-    margin-left: 30px;
-    margin-top: 5px;
-    width: 70%;
-}
-
-footer {
-
-    background-color: blue;
-    color:white;
-    padding-top: 5px;
     display: flex;
-    justify-content: center;
-    margin-top: 1%;
+    flex-direction: row;
 }
+
