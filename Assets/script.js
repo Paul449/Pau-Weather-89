@@ -3,7 +3,9 @@ let city; // variable to store any city
 let searchbox = document.querySelector('.future-conditions'); // display five days forecast
 let InputBox = document.getElementById('input-txt'); // enter city
 let fetchBtn = document.getElementById('searchBtn'); // click button
+
 function getCity () {
+    const startPerformance = performance.now(); // start timing the API request
   //present conditions
     searchbox.innerHTML = ""; // it updates data when looking for multiple cities instead of appending the conditions
     const requestURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${APIkey}`; // requesting city on the openWeather api by using my API key
@@ -52,6 +54,9 @@ const futureURL = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&ap
 }).catch(err => {
   console.error('error',err);
 })
+    const endPerformance = performance.now();
+    const Optimization = endPerformance - startPerformance; // calculate the total time for API requests
+    console.log(`API response time: ${Optimization.toFixed(2)} ms`); // log the API response time
 };
 fetchBtn.addEventListener('click', (event) =>{
     let list = document.querySelector('.city-list');
@@ -66,6 +71,7 @@ fetchBtn.addEventListener('click', (event) =>{
     Paragraph.addEventListener('click', getCity);
     getCity(city);
      });
+   
     /* let box = document.createElement('div'); // future forecast container
     box.setAttribute('style','border: 2px solid blue; background-color:#1E90FF; color:white; margin-right:10px; padding:20px');
     box.classList.add('flex-container');
